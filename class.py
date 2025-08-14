@@ -3,16 +3,16 @@ class Human:
         self.name = n
         self.occupation = o 
         
-    def do_work(self):  # Properly indented under class
+    def do_work(self):  
         if self.occupation == "tennis player":
             print(self.name, "plays tennis")
         elif self.occupation == "actor":
-            print(self.name, "shoots a film")  # Fixed typo: "flim" → "film"
+            print(self.name, "shoots a film")  
             
-    def speak(self):  # Properly indented under class
+    def speak(self):  
         print(self.name, "i do speak")
         
-    def eat(self):  # Properly indented under class
+    def eat(self): 
         print(self.name, "i eat rice")
 
 tom = Human("Tom cruise", "actor")
